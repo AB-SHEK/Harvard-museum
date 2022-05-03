@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(241, 149, 11);
+}
+@keyframes h1 {
+  from {background-color: rgb(7, 218, 154);}
+  to {background-color: yellow;}
+}
+h1{
+    color:rgb(223, 14, 14);
+    font-style: oblique;
+    animation-name: h1 ;
+    animation-duration: 20s;
+}
+
+form.Searchbar button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid rgb(4, 0, 8);
+  cursor: pointer;
+
+}
